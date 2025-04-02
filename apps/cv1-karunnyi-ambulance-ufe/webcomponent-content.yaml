@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: cv1-karunnyi-ambulance-ufe-content
+spec:
+  microFrontend: cv1-karunnyi-ambulance-ufe
+  element: cv1karunnyi-ambulance-wl-text
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?cv1-karunnyi-ambulance-wl(/.*)?$"
