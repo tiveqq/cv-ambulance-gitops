@@ -9,3 +9,6 @@ labels:
 
 resources:
 - ../../../apps/cv1-karunnyi-ambulance-ufe
+
+components:
+- ../../../components/version-developers
