@@ -16,7 +16,7 @@ spec:
     - name: material-icon
       value: home_health
     - name: href # presmerovanie po kliknutí na element polyfea-md-app
-      value: ./cv1-karunnyi-ambulance-wl
+      value: ./cv1karunnyi-ambulance-ufe
   priority: 10
   displayRules: # pravidlá, kde sa má element vložiť v obálke
     - anyOf:

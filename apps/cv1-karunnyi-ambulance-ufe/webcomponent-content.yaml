@@ -4,8 +4,8 @@ metadata:
   name: cv1-karunnyi-ambulance-ufe-content
 spec:
   microFrontend: cv1-karunnyi-ambulance-ufe
-  element: cv1karunnyi-ambulance-wl-text
+  element: cv1karunnyi-ambulance-ufe-text
   displayRules:
     - allOf:
       - context-name: main-content
-      - path: "^(\\.?/)?cv1-karunnyi-ambulance-wl(/.*)?$"
+      - path: "^(\\.?/)?cv1karunnyi-ambulance(/.*)?$"
