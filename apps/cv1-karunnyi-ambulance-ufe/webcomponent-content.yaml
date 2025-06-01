@@ -5,6 +5,11 @@ metadata:
 spec:
   microFrontend: cv1-karunnyi-ambulance-ufe
   element: cv1karunnyi-ambulance-ufe-track
+  attributes:
+    - name: base-path
+      value: /cv1karunnyi-ambulance-wl/
+    - name: api-base
+      value: http://localhost:30081/api
   displayRules:
     - allOf:
       - context-name: main-content

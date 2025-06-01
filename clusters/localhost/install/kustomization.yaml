@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/cv1-karunnyi-ambulance-ufe
+- ../../../apps/cv1-karunnyi-ambulance-webapi
+
+patches:
+  - path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/tiveqq/cv-ambulance-webapi//deployments/kustomize/components/mongodb
