@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: cv1-karunnyi-ambulance-ufe-container # meno kontaineru - v pod-e ich môže byť viac
-        image: kxrunnyi/cv-ambulance-ufe
+        image: kxrunnyi/cv-ambulance-ufe:latest
         imagePullPolicy: Always
 
         ports:
