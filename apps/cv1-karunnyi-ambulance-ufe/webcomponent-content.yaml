@@ -6,8 +6,6 @@ spec:
   microFrontend: cv1-karunnyi-ambulance-ufe
   element: cv1karunnyi-ambulance-ufe-router
   attributes:
-    - name: base-path
-      value: /cv1-karunnyi-ambulance-wl/
     - name: api-base
       value: http://localhost:30081/api
   displayRules:
