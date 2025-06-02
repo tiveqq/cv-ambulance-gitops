@@ -7,7 +7,7 @@ spec:
   element: cv1karunnyi-ambulance-ufe-router
   attributes:
     - name: api-base
-      value: http://localhost:30081/api
+      value: http://cv1karunnyi-api
   displayRules:
     - allOf:
       - context-name: main-content
