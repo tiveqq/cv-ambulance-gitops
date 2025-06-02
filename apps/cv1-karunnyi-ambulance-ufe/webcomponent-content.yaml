@@ -9,7 +9,7 @@ spec:
     - name: base-path
     - value: /cv1karunnyi-ambulance-ufe/
     - name: api-base
-      value: http://cv1karunnyi-api
+      value: /cv1karunnyi-api
   displayRules:
     - allOf:
       - context-name: main-content
