@@ -4,7 +4,7 @@ metadata:
   name: cv1-karunnyi-ambulance-ufe-content
 spec:
   microFrontend: cv1-karunnyi-ambulance-ufe
-  element: cv1karunnyi-ambulance-ufe-router
+  element: cv1karunnyi-ambulance-ufe-track
   attributes:
     - name: api-base
       value: http://localhost:30081/api
