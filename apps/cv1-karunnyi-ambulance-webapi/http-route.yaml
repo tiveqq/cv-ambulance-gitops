@@ -12,7 +12,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /<pfx>-api
+            value: /cv1karunnyi-api
       filters:
         - type: URLRewrite
           urlRewrite:
@@ -27,17 +27,17 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /<pfx>-openapi-ui
+            value: /cv1karunnyi-openapi-ui
           backendRefs:
           - group: ""
             kind: Service
-            name: <pfx>-openapi-ui
+            name: cv1karunnyi-openapi-ui
             port: 80
 
     - matches:
         - path:
             type: Exact
-            value: /<pfx>-openapi
+            value: /cv1karunnyi-openapi
       filters:
         - type: URLRewrite
           urlRewrite:
