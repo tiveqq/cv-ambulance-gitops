@@ -10,8 +10,6 @@ spec:
       value: /cv1karunnyi-ambulance-ufe/
     - name: api-base
       value: /cv1karunnyi-api
-    - name: no-redirect
-      value: "true"
   displayRules:
     - allOf:
       - context-name: main-content
