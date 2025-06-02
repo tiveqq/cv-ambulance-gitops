@@ -6,7 +6,7 @@ spec:
   parentRefs:
     - name: wac-hospital-gateway
       namespace: wac-hospital
-    - name: wac-hospital-gateway  # Hack to make it work for common cluster
+    - name: wac-hospital-gateway
       namespace: wac-hospital-system
   rules:
     - matches:
@@ -24,15 +24,16 @@ spec:
           kind: Service
           name: cv1karunnyi-ambulance-webapi
           port: 80
+
     - matches:
         - path:
             type: PathPrefix
             value: /cv1karunnyi-openapi-ui
-          backendRefs:
-          - group: ""
-            kind: Service
-            name: cv1karunnyi-openapi-ui
-            port: 80
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: cv1karunnyi-openapi-ui
+          port: 80
 
     - matches:
         - path:
@@ -47,5 +48,5 @@ spec:
       backendRefs:
         - group: ""
           kind: Service
-          name: <pfx>-ambulance-webapi
+          name: cv1karunnyi-ambulance-webapi
           port: 80
