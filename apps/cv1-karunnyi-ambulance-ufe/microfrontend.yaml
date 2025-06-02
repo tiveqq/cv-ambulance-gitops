@@ -7,4 +7,4 @@ metadata:
 spec:
   frontendClass: md-shell
   service: http://cv1-karunnyi-ambulance-ufe.wac-hospital.svc.cluster.local
-  modulePath: www/build/ambulance-ufe.esm.js
+  modulePath: /build/ambulance-ufe.esm.js
