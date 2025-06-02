@@ -2,7 +2,9 @@ apiVersion: polyfea.github.io/v1alpha1
 kind: MicroFrontend
 metadata:
   name: cv1-karunnyi-ambulance-ufe
+  labels:
+    polyfea.github.io/frontend-class: md-shell
 spec:
-  frontendClass: md-shell # default obsiahnutý v základe polyfea md-shell
-  service: http://cv1-karunnyi-ambulance-ufe.wac-hospital # referencia na službu odkiaľ sa má načítať modul
-  modulePath: build/ambulance-ufe.esm.js # cesta v rámci služby kde sa modul nachádza
+  frontendClass: md-shell
+  service: http://cv1-karunnyi-ambulance-ufe.wac-hospital
+  modulePath: build/ambulance-ufe.esm.js
