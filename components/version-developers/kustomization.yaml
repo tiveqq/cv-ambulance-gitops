@@ -3,7 +3,7 @@ kind: Component
 images:
   - name: kxrunnyi/ambulance-wl-webapi
     newName: kxrunnyi/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
-    newTag: main.20250602.0319 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+    newTag: main.20250607.2330 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
   - name: kxrunnyi/cv-ambulance-ufe
     newName: kxrunnyi/cv-ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
     newTag: main.20250531.0135 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
