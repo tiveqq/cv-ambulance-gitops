@@ -7,7 +7,7 @@ spec:
   element: cv1karunnyi-ambulance-ufe-router
   attributes:
     - name: base-path
-      value: /cv1karunnyi-ambulance-ufe/
+      value: /cv1-karunnyi-ambulance-ufe/
     - name: api-base
       value: /cv1karunnyi-api
   displayRules:
