@@ -12,6 +12,8 @@ labels:
 
 resources:
 - ../../../apps/cv1-karunnyi-ambulance-ufe
+- ../../../apps/cv1-karunnyi-ambulance-webapi
+
 
 
 components:
